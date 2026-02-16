@@ -14,7 +14,7 @@ export const ITEMS: Item[] = [
     id: "2",
     title: "Action Trial Edition",
     priceYen: 0,
-    desc: "まずは体験版で触ってみよう。操作の分かりやすさとテンポを実感！。",
+    desc: "まずは体験版で触ってみよう。操作の分かりやすさとテンポを実感。",
     tags: ["体験版", "アクション", "テンポ"],
     release: "2026-01-10",
     popularity: 83,
