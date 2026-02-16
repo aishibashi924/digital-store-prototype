@@ -1,3 +1,18 @@
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 :root {
   color-scheme: light;
 }
@@ -15,16 +30,19 @@ a {
 }
 
 .page {
-  padding: 22px;
+  width: 100%;
   max-width: 980px;
   margin: 0 auto;
+  padding: 22px;
+  box-sizing: border-box;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   gap: 14px;
+  flex-wrap: wrap;
 }
 
 .headerLeft {
